@@ -13,16 +13,20 @@
         android:theme="@style/Theme.BirthdayWishing"
         tools:targetApi="31">
         <activity
-            android:name=".BirthDay_Card"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Splash_Screen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".BirthDayCard"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
         </activity>
 
         <meta-data

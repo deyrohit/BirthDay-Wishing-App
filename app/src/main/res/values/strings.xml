@@ -5,4 +5,6 @@
     <string name="todo">TODO</string>
     <string name="happy_birthday">Happy Birthday</string>
     <string name="name">Name</string>
+    <string name="birthday_card_making_app">Birthday Card Making App</string>
+    <string name="made_by_rohit">Made By Rohit</string>
 </resources>

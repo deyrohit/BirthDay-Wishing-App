@@ -19,7 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         Toast.makeText(this ,"Happy Birthday $name",Toast.LENGTH_LONG).show()
 
-        val intent = Intent(this, BirthDay_Card::class.java)
+
+        val intent = Intent(this, BirthDayCard::class.java)
         intent.putExtra("key", name)
         startActivity(intent)
     }

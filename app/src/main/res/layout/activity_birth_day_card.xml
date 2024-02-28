@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BirthDay_Card">
+    tools:context=".BirthDayCard">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        android:src="@drawable/image" />
+        android:scaleType="fitXY"
+        android:src="@drawable/image2"
+         />
 
     <TextView
         android:id="@+id/textView"
@@ -20,12 +21,13 @@
         android:fontFamily="@font/aguafina_script"
         android:text="@string/happy_birthday"
         android:textAlignment="center"
-        android:textColor="#9E1907"
+        android:textColor="#30850C"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:id="@+id/textView1"
@@ -35,7 +37,7 @@
         android:fontFamily="@font/aguafina_script"
         android:text="@string/name"
         android:textAlignment="center"
-        android:textColor="#9E1907"
+        android:textColor="#30850C"
         android:textSize="50sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
